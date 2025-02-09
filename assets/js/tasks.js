@@ -1,6 +1,5 @@
 import { db } from "./firebase.js";
 import { doc, getDoc, getDocs, addDoc, updateDoc, collection, query, where } from "firebase/firestore";
-import { signOut } from "firebase/auth";
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 const taskInput = document.getElementById('taskInput');
@@ -201,10 +200,6 @@ taskList.addEventListener("keypress", async function(e) {
 
 window.addEventListener('error', function (event) {
   console.error('Error occurred: ', event.message);
-});
-
-window.addEventListener("beforeunload", function (event) {
-  localStorage.removeItem("email");
 });
 
 signOutBttn.addEventListener("click", function(event) {
