@@ -4,12 +4,12 @@ import { getAuth } from "firebase/auth";
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCuWLYWUJ2R4v6ptAKcL2jmXJPDSGl7uW0",
-    authDomain: "info5146.firebaseapp.com",
-    projectId: "info5146",
-    storageBucket: "info5146.firebasestorage.app",
-    messagingSenderId: "711911517967",
-    appId: "1:711911517967:web:cadd485436fb294a85987a"
+    apiKey: "AIzaSyCLWcM4xIapAEgIbpK_93JSXK139XRErt4",
+    authDomain: "info-5146-todo.firebaseapp.com",
+    projectId: "info-5146-todo",
+    storageBucket: "info-5146-todo.firebasestorage.app",
+    messagingSenderId: "438512065808",
+    appId: "1:438512065808:web:15f274f08b066c9ef4d995"
 };
 
 const app = initializeApp(firebaseConfig);
